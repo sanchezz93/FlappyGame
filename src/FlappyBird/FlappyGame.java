@@ -3,7 +3,7 @@
 //  Copyright (c) 2014 manolo. All rights reserved.
 //
 
-package breakingbad;
+package FlappyBird;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -28,7 +28,7 @@ import javax.swing.JFrame;
  *
  * @author manolo
  */
-public class BreakingBad extends JFrame implements Runnable, KeyListener {
+public class FlappyGame extends JFrame implements Runnable, KeyListener {
 	private static final long serialVersionUID = 1L;
 //	Se declaran las variables.
 	private Image dbImage;				// Imagen a proyectar
@@ -62,7 +62,7 @@ public class BreakingBad extends JFrame implements Runnable, KeyListener {
 	private boolean hankDied;
 
 	
-	public BreakingBad() {
+	public FlappyGame() {
 		init();
 		start();
 	}
@@ -612,7 +612,7 @@ public class BreakingBad extends JFrame implements Runnable, KeyListener {
 	 * @param args the command line arguments
 	 */
 	public static void main(String[] args) {
-		BreakingBad examen1 = new BreakingBad();
+		FlappyGame examen1 = new FlappyGame();
 		examen1.setVisible(true);
 		examen1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}

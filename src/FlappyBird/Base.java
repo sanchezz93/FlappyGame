@@ -3,7 +3,7 @@
 //  Copyright (c) 2014 manolo. All rights reserved.
 //
 
-package breakingbad;
+package FlappyBird;
 
 /**
  *
